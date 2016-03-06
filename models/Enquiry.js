@@ -50,10 +50,10 @@ Enquiry.schema.methods.sendNotificationEmail = function(callback) {
 		new keystone.Email('enquiry-notification').send({
 			to: admins,
 			from: {
-				name: 'Hollofield',
-				email: 'contact@hollofield.com'
+				name: 'Holofield VR',
+				email: 'contact@holofieldvr.com'
 			},
-			subject: 'New Enquiry for Hollofield',
+			subject: 'New Enquiry for Holofield VR',
 			enquiry: enquiry
 		}, callback);
 		
