@@ -1,1 +1,1 @@
-web: npm install node keystone.js
+web: node keystone.js
